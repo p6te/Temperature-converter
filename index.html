@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css.css">
-	<script src="engine.js" defer></script>
-	<title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css.css" />
+    <script src="engine.js" defer></script>
+    <title>Converter</title>
+  </head>
+  <body>
+    <label for="converter"
+      >Converter <span class="one">°C</span> na
+      <span class="two">°F</span></label
+    >
+    <input type="number" id="converter" placeholder="Write the number..." />
+    <p class="result"></p>
 
-	<label for="converter">Konwerter <span class="one">°C</span> na <span class="two">°F</span></label>
-<input type="number" id="converter" placeholder="Wpisz liczbę...">
-<p class="result"></p>
-
-<div>
-	<button class="conv">Konwertuj</button>
-	<button class="reset">Reset</button>
-	<button class="change">Zamień</button>
-</div>
-	
-</body>
+    <div>
+      <button class="conv">Convert</button>
+      <button class="reset">Reset</button>
+      <button class="change">Replace</button>
+    </div>
+  </body>
 </html>
